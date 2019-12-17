@@ -1,5 +1,5 @@
 FROM nginx
 
-ADD ./vhosts/default.conf /etc/nginx/conf.d/default.conf
+ADD ./vhosts/nginx/default.conf /etc/nginx/conf.d/default.conf
 
 WORKDIR /var/www
